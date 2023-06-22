@@ -1,5 +1,6 @@
 import { Stack, Text, Box } from '@chakra-ui/react'
 import { PaginationItem } from './PaginationItem'
+import { useEffect } from 'react'
 
 interface PaginationProps {
   totalCountOfRegisters: number
@@ -17,7 +18,7 @@ function generatePagesArray(from: number, to: number) {
 }
 // generatePagesArray(2, 5) => [3, 4, 5]
 
-export function Pagination({ totalCountOfRegisters, currentPage = 1, onPageChange, registerPerPage = 1 }: PaginationProps) {
+export function Pagination({ totalCountOfRegisters, currentPage = 1, onPageChange, registerPerPage = 10 }: PaginationProps) {
   const lastPage = Math.ceil(totalCountOfRegisters / registerPerPage)
 
   const previousPages = currentPage > 1

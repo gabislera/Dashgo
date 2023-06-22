@@ -4,14 +4,15 @@ import { Sidebar } from '../../components/Sidebar'
 import { RiAddLine, RiPencilLine } from 'react-icons/ri'
 import { Pagination } from '../../components/Pagination'
 import NextLink from 'next/link'
-import { useUsers } from '../../services/hooks/useUsers'
+import { getUsers, useUsers } from '../../services/hooks/useUsers'
 import { useState } from 'react'
 import { queryClient } from '../../services/queryClient'
 import { api } from '../../services/api'
+import { GetServerSideProps } from 'next'
 
 export default function UserList() {
   const [page, setPage] = useState(1)
-  const { data, isLoading, error, isFetching } = useUsers(page)
+  const { data, isLoading, error, isFetching } = useUsers(page,)
 
   const isWideVersion = useBreakpointValue({
     base: false,
