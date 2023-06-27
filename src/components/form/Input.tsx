@@ -21,8 +21,10 @@ const InputBase: ForwardRefRenderFunction<HTMLInputElement, InputProps> = ({ nam
         _hover={{ bgColor: 'gray.900 '}} 
         size='lg' 
         ref={ref}
+        list='suggestion'
         {...rest}
       />
+      <datalist id='suggestion'> <option value='teste@gmail.com'/> </datalist>
       {!!error && (
         <FormErrorMessage>
           {error.message}
