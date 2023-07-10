@@ -16,7 +16,10 @@ A dashboard aplication where the user can access the analytics and the list of u
 
 ## Stack
 
-**Front-end:** React, Next, ChakraUi, 
+**Front-end:** ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
+![Next JS](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white)
+![Chakra](https://img.shields.io/badge/chakra-%234ED1C5.svg?style=for-the-badge&logo=chakraui&logoColor=white)
+
 
 **Back-end:** Faker, MirageJs
 
