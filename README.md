@@ -5,7 +5,6 @@
 A dashboard aplication where the user can access the analytics and the list of users created with fakerjs. The backend authentication was created with nextjs and miragejs. The full responsive frontend was created with chakraui.
 
 
-
 ## Funcionalities
 
 - Login
@@ -13,15 +12,12 @@ A dashboard aplication where the user can access the analytics and the list of u
 - Usuários
 
 
-
 ## Stack
 
-**Front-end:** ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
+![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
 ![Next JS](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white)
 ![Chakra](https://img.shields.io/badge/chakra-%234ED1C5.svg?style=for-the-badge&logo=chakraui&logoColor=white)
-
-
-**Back-end:** Faker, MirageJs
+![React Hook Form](https://img.shields.io/badge/React%20Hook%20Form-%23EC5990.svg?style=for-the-badge&logo=reacthookform&logoColor=white)
 
 
 ## Using
