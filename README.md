@@ -2,7 +2,7 @@
 
 # Dashgo
 
-A dashboard aplication where the user can access the analytics and the list of users created with fakerjs. The backend authentication was created with nextjs and miragejs. The full responsive frontend was created with chakraui.
+'A dashboard aplication where the user can access the analytics and the list of users created with fakerjs. The backend authentication was created with nextjs and miragejs. The full responsive frontend was created with chakraui.'
 
 
 ## Functionalities
